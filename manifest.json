@@ -5,7 +5,11 @@
   "description": "removes all button tags containing 'play ai video' from snapplefacts.film",
   "browser_specific_settings": {
     "gecko": {
-      "id": "snapple-no-snapping@phluxjr"
+      "id": "snapple-no-snapping@phluxjr",
+      "data_collection_permissions": {
+        "required": [],
+        "optional": []
+      }
     }
   },
   "permissions": [
