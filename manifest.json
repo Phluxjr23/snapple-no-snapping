@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "snapple no snapping!",
+  "version": "1.0",
+  "description": "removes all button tags containing 'play ai video' from snapplefacts.film",
+  "permissions": [
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.snapplefacts.film/*"
+  ],
+  "icons": {
+    "128": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.snapplefacts.film/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
+
