@@ -7,7 +7,7 @@
     "gecko": {
       "id": "snapple-no-snapping@phluxjr",
       "data_collection_permissions": {
-        "required": [],
+        "required": ["none"],
         "optional": []
       }
     }
