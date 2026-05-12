@@ -3,6 +3,11 @@
   "name": "snapple no snapping!",
   "version": "1.0",
   "description": "removes all button tags containing 'play ai video' from snapplefacts.film",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "snapple-no-snapping@phluxjr"
+    }
+  },
   "permissions": [
     "scripting"
   ],
@@ -24,4 +29,3 @@
     }
   ]
 }
-
